@@ -1,0 +1,575 @@
+
+* {
+	box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+
+ } 
+
+
+body {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 20px;
+	line-height: 1.5;
+	cursor: default;
+	background: url(../images/pattern.jpg) repeat;
+	width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+
+	
+
+}
+
+.wrapper {
+
+	margin: 0 auto;
+	width: 1280px;
+	/*position: relative;*/
+
+}
+
+header {
+
+	text-align: center;
+	background:url(../images/top3.jpg) center no-repeat;  
+	background-size: cover;
+    overflow: hidden;
+
+ }
+   
+
+.header_nike {
+
+	text-align: center;
+	background:url(../images/gift2.jpg) center no-repeat;  
+	background-size: cover;
+
+
+
+}
+
+.header_sub2 {
+
+	text-align: center;
+	background:url(../images/roadsub.jpg) center no-repeat;  
+	background-size: cover;
+	/*color: white;*/
+
+}
+
+.back {
+
+	left: 1px;
+    top: 50%;
+    transform: translateY(-85%);
+	position: absolute;
+	background: none;
+	border:none;
+
+}
+
+.back img {
+
+	height: 50%;
+	width: 50%;
+}
+
+.chart-container {
+	height: 500px;
+}
+
+header h1 {
+
+font-weight: bolder;
+font-size: 3em;
+
+}
+
+
+
+.content {
+
+	margin:0;
+    padding:0;
+    text-align:center;
+    list-style:none;
+    position: relative;
+
+}
+
+.content a {
+
+	text-decoration: none;
+	display: inline-block;
+	padding: 45px;
+	font-size: 1.5em;
+	color: white;
+	font-weight: bolder;
+
+
+}
+
+.content ul a:hover{
+	transform: scale(1.5);
+
+} 
+
+.content li {
+
+    display:inline;
+   
+
+}
+
+#story {
+
+	padding: 50px 0px;
+
+
+
+}
+
+table {
+
+	background: rgba(255,255,255,.9); 
+	box-shadow: inset 0 0 5px rgba(0,0,0,.75);
+	text-align: center;
+	width: 90%;
+	border-collapse: collapse;
+
+}
+	
+
+
+th, td {
+  padding: 0.25em 1em;
+  border: 1px solid black;
+
+  }
+
+#table {
+
+	width: 70%;
+    margin-left: 20%;
+	padding-bottom: 5%;
+}
+
+#records h2 {
+
+	text-align: center;
+}
+
+table img {
+height: 20px;
+width: 40px;
+
+}
+
+#records {
+
+	
+	background: url(../images/berlin.jpg) center center no-repeat;
+	background-size: cover;
+	overflow: hidden;
+
+}
+
+
+#science {
+
+	padding: 50px 0px; 
+}
+
+.links img {
+	height: 70px;
+	width: 70px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5em;
+	margin-bottom: 5em;
+	border-radius: 50%;
+  -webkit-transition: -webkit-transform .9s ease-in-out;
+          transition:         transform .9s ease-in-out;
+}
+
+.links img:hover {
+
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+
+
+
+.column {
+	list-style: none;
+	float: left;
+	width: 27.3333%;
+	margin: 3%;
+	
+	
+	padding-bottom: 50px;
+	/*position: relative;*/
+
+}
+
+.c1 {
+	background: #b4e391; 
+	background: -moz-linear-gradient(top, #b4e391 0%, #61c419 50%, #b4e391 100%); 
+	background: -webkit-linear-gradient(top, #b4e391 0%,#61c419 50%,#b4e391 100%); 
+	background: linear-gradient(to bottom, #b4e391 0%,#61c419 50%,#b4e391 100%); 
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391', endColorstr='#b4e391', GradientType=0 ); */
+}
+
+
+.c2 {
+	background: #87e0fd; 
+	background: -moz-linear-gradient(top, #87e0fd 0%, #53cbf1 40%, #05abe0 100%); 
+	background: -webkit-linear-gradient(top, #87e0fd 0%,#53cbf1 40%,#05abe0 100%); 
+	background: linear-gradient(to bottom, #87e0fd 0%,#53cbf1 40%,#05abe0 100%); 
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=0 ); */
+}
+
+.c3 {
+
+	background: #f2f5f6; 
+	background: -moz-linear-gradient(top, #f2f5f6 0%, #e3eaed 37%, #c8d7dc 100%); 
+	background: -webkit-linear-gradient(top, #f2f5f6 0%,#e3eaed 37%,#c8d7dc 100%); 
+	background: linear-gradient(to bottom, #f2f5f6 0%,#e3eaed 37%,#c8d7dc 100%); 
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f5f6', endColorstr='#c8d7dc',GradientType=0 ); */
+}
+
+
+.column span {
+
+	font-size: 2em;
+	display: block;
+	text-align: center;
+	font-weight: bolder;
+	padding-top: 20px;
+
+
+}
+
+
+
+
+.button {
+
+	text-decoration: none;
+	/*border: 2px solid #C0C0C0;*/
+	padding: 5px 2px;
+	color: black;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 50%;
+	font-weight: bolder;
+	font-size: 1.5em;
+
+}
+
+.c1 .button:hover {
+
+	background:#6ab62f;
+}
+
+
+.c2 .button:hover {
+
+	background:#03aae2;
+}
+
+.c3 .button:hover {
+
+	background:#c5d2d7;
+}
+
+.c1 a { 
+
+border-top: 3px solid  #6ab62f;
+border-bottom: 1px solid #6ab62f;
+border-left: 3px solid #6ab62f;
+border-right: 1px solid #6ab62f;
+}
+
+.c2 a {
+
+border-top: 3px solid  #03aae2;
+border-bottom: 1px solid #03aae2;
+border-left: 3px solid #03aae2;
+border-right: 1px solid #03aae2;
+
+
+}
+
+.c3 a {
+
+border-top: 3px solid #c5d2d7;
+border-bottom: 1px solid #c5d2d7;
+border-left: 3px solid #c5d2d7;
+border-right: 1px solid #c5d2d7;
+}
+
+
+#projects {
+
+padding: 20px 0px;
+
+}
+
+.projects {
+
+	text-align: center;
+
+}
+
+
+
+#projects img {
+/*	padding-top: 50px;*/
+	height: 200px;
+	width: 200px;
+	margin: auto;
+}	
+
+#projects img:hover {
+transform: perspective(200px) translateZ(70px);
+}
+
+
+#projects li {
+
+
+	display: inline-block;
+	padding: 0 50px;
+	
+
+}
+
+#projects span {
+
+	font-weight: bolder;
+	font-size: 25px;
+}
+
+#athletes p {
+
+	padding-bottom: 30px;
+}
+
+
+#athletes img{
+
+	height: 30%;
+	width: 30%;
+}
+
+.kipchoge img {
+
+	float: left;
+	padding-right: 30px;
+}
+
+.kipchoge {
+
+	padding-bottom: 20px;
+}
+
+.desisa img {
+
+	float: right;
+	padding-left: 30px;
+}
+
+.desisa p {
+
+	margin-right: 10px;
+}
+
+.desisa {
+
+	padding-bottom: 20px;
+}
+
+.tadese img {
+
+	float: left;
+	padding-right: 30px;
+}
+
+.tadese {
+
+padding-bottom: 20px;
+
+} 
+
+
+#shoe img {
+
+	height: 40%;
+	width:40%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	}
+
+.readmore a, .readless a {
+
+	text-decoration: none;
+	color: black;
+	font-weight: bolder;
+	
+}
+
+.readmore, .readless {
+  text-align: center;
+  margin-top: 20px; }
+
+ .hide {
+  display: none;
+  margin-top: 20px;
+}
+
+.hide_column {
+
+	display: none;
+	padding-top: 100px;
+}
+
+
+#objectives img{
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 1024px;
+height: 682px;
+	
+}
+
+#objectives h3 {
+
+	padding-top: 30px;
+}
+
+.sub2 q {
+
+	font-style: italic;
+}
+
+#objectives  p {
+
+	padding: 30px 0;
+}
+
+.sub2 img{
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 1024px;
+height: 682px;
+}
+
+#antidoping p {
+
+padding: 30px 0;
+
+}
+
+#technologies p {
+
+padding: 30px 0;
+
+}
+
+.caption  {
+	display:block;
+	text-align: center;
+	font-size: 18px;
+}
+
+
+
+
+
+
+
+footer {
+
+	background: url(../images/top2.jpg) center no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: white;
+	/*position: absolute;*/
+	/*width: 100%;*/
+	height: 300px;
+}
+
+footer h2 {
+
+	padding-top: 50px;
+}	
+
+
+
+footer li {
+
+	list-style: none;
+	display: inline;
+	padding: 0 30px;
+}
+
+footer li a {
+
+	text-decoration: none;
+	color: white;
+	font-size: 2em;
+	font-weight: bolder;
+
+}
+
+.go-top {
+	position: fixed;
+	bottom: 2em;
+	right: 2em;
+	text-decoration: none;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.6);
+	font-size: 14px;
+	padding: 1em;
+	display: none;
+}
+
+.go-top:hover {
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+
+.fa-bars {
+  float:right;
+  cursor: pointer;
+  /*color: yellow;*/
+  display: none !important;
+}
+
+@media screen and (min-width: 1000px) {
+	
+}
